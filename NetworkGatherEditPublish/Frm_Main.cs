@@ -26,6 +26,7 @@ namespace NetworkGatherEditPublish
         protected string m_strCnblogsUrlFilterRule = "";
 
         private TaskDelegate deles;
+
         public Frm_Main()
         {
             InitializeComponent();
@@ -55,7 +56,7 @@ namespace NetworkGatherEditPublish
 
         private void ParseWebPage(string strVisitUrl, string strPageContent)
         {
-            bool bNoArticle = SaveUrlToDB(strVisitUrl, strPageContent);
+            bool bNoArticle = TakeUrls(strVisitUrl, strPageContent);
             if (!bNoArticle)
             {
                 PageResult pr = m_wd.ProcessQueue(Encoding.UTF8);
@@ -64,7 +65,7 @@ namespace NetworkGatherEditPublish
 
         }
 
-        protected bool SaveUrlToDB(string strVisitUrl, string strReturnPage)
+        protected bool TakeUrls(string strVisitUrl, string strReturnPage)
         {
 
 
