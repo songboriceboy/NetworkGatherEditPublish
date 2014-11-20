@@ -7,7 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
-
+/*
+豆约翰博客备份专家是完全免费，功能强大的博客备份工具，
+博客电子书（PDF，CHM和TXT）生成工具，博文离线浏览工具
+软件界面美观大方，支持多个主流博客网站（QQ空间，新浪博客
+宝宝树博客，豆瓣日记，天涯博客，简书，博客园，和讯博客
+CSDN博客，Iteye博客，搜狐博客，51CTO，itpub，chinaunix博客,微信公众号文章）。
+任意博文远程一键发布到新浪，网易，博客园，WordPress功能
+博客导出成静态站点功能。
+并带有Android版博客阅读器
+*/
 namespace NetworkGatherEditPublish
 {
     public partial class Frm_Main : Form
