@@ -41,7 +41,7 @@
             this.buttonGetUrls.Name = "buttonGetUrls";
             this.buttonGetUrls.Size = new System.Drawing.Size(190, 29);
             this.buttonGetUrls.TabIndex = 0;
-            this.buttonGetUrls.Text = "获取全部博文网址（博客园）";
+            this.buttonGetUrls.Text = "获取全部博文网址";
             this.buttonGetUrls.UseVisualStyleBackColor = true;
             this.buttonGetUrls.Click += new System.EventHandler(this.buttonGetUrls_Click);
             // 

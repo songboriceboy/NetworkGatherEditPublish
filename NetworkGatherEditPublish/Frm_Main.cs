@@ -41,6 +41,7 @@ namespace NetworkGatherEditPublish
         private void Form1_Load(object sender, EventArgs e)
         {
             deles = new TaskDelegate(new ccTaskDelegate(RefreshTask));
+            this.txtBoxCnblogsBlogID.Text = "xchsp";
         }
 
         private void ParseWebPage(string strVisitUrl, string strPageContent)
